@@ -1,4 +1,14 @@
-This project was created for educational purpose only. The goal of the project is to create simple store using Java EE technologies: * JSF * EJB * JPA * Glassfish * Oracle Database, MySQL Applications is being developed with fallowing tools: * netbeans * subversion * ant * asadmin * live http headers * firebug 
+This project was created for educational purpose only. The goal of the project is to create simple store using Java EE technologies:
+* JSF
+* EJB
+* JPA
+* Glassfish
+* Oracle Database
+* Netbeans IDE
+* GIT
+* ANT
+* Live HTTP Headers
+* Firebug 
 
 Store will have fallowing functions:
 * frontpanel
