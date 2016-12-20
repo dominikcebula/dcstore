@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/61/trunk/dcstore-war/src/java/dcstore/web
+END
+AdminWeb.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/45/trunk/dcstore-war/src/java/dcstore/web/AdminWeb.java
+END
+CartWeb.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/61/trunk/dcstore-war/src/java/dcstore/web/CartWeb.java
+END
+ErrorWeb.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/30/trunk/dcstore-war/src/java/dcstore/web/ErrorWeb.java
+END
+TaxWeb.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/49/trunk/dcstore-war/src/java/dcstore/web/TaxWeb.java
+END
+CategoryWeb.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/52/trunk/dcstore-war/src/java/dcstore/web/CategoryWeb.java
+END
+CartPositionWeb.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/60/trunk/dcstore-war/src/java/dcstore/web/CartPositionWeb.java
+END
+ProductWeb.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/55/trunk/dcstore-war/src/java/dcstore/web/ProductWeb.java
+END
+SettingsWeb.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/58/trunk/dcstore-war/src/java/dcstore/web/SettingsWeb.java
+END
+InfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/52/trunk/dcstore-war/src/java/dcstore/web/InfoBean.java
+END
+DescriptionWeb.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/52/trunk/dcstore-war/src/java/dcstore/web/DescriptionWeb.java
+END
+ImagesWeb.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/61/trunk/dcstore-war/src/java/dcstore/web/ImagesWeb.java
+END

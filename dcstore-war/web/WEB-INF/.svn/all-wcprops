@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/dcstore-war/web/WEB-INF
+END
+glassfish-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27/trunk/dcstore-war/web/WEB-INF/glassfish-web.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/61/trunk/dcstore-war/web/WEB-INF/web.xml
+END

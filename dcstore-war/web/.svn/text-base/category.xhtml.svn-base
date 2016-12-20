@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   This file is a part of dcstore project,
+   licensed under GPLv2
+  
+   Dominik Cebula
+   dominikcebula@gmail.com
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:body>
+        <ui:composition template="template.xhtml">
+            <ui:define name="breadcrumb">
+                #{categoryWeb.currentName}
+            </ui:define>
+
+            <ui:define name="main">
+                #{settingsWeb.Load()}
+                <c:choose>
+                    <c:when test="#{categoryWeb.products.size()>0}">                                    
+                        <c:forEach items="#{categoryWeb.products}"
+                                   var="p">
+                            <div class="product">                                
+                                <div class="product_image">
+                                    <h:graphicImage url="#{imagesWeb.getCategoryURL(p.id)}" />
+                                </div>
+                                <div class="product_info">
+                                    <div class="product_title">
+                                        #{p.name}
+                                    </div>
+                                    <br />
+                                    <div class="product_description">
+                                        #{p.description.body}
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="product_price">
+                                    #{p.priceWithTax} #{settingsWeb.currency}
+                                </div>
+                                <br /><br />
+                                <div class="product_actions">
+                                    <h:form>
+                                        <h:commandLink value="Add to cart"
+                                                       action="#{cartWeb.addProduct()}">
+                                            <f:param name="pid"
+                                                     value="#{p.id}" />
+                                            <f:param name="id"
+                                                     value="#{param['id']}" />
+                                        </h:commandLink>
+                                        <br />
+                                        <h:link value="Details"
+                                                outcome="product.xhtml">
+                                            <f:param name="id"
+                                                     value="#{p.id}" />
+                                        </h:link>
+                                    </h:form>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </c:forEach>
+                    </c:when>
+                    <c:otherwise>
+                        No products in this category
+                    </c:otherwise>
+                </c:choose>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>

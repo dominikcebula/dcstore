@@ -1,0 +1,259 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 77%;
+}
+
+html, body
+{
+    height: 97%;
+}
+
+a
+{
+    color: #3366FF;
+}
+
+#wrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    min-height: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#header
+{
+    height: 20px;
+    background: url("#{resource['img:headerAdmin.gif']}");
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+#header a
+{
+    color: white;
+    font-weight: bold;
+}
+
+#appinfo
+{
+    float: left;
+    margin-right: 45px;
+    padding-top: 1px;
+}
+
+.item 
+{
+    height: 19px;
+    float: left;
+    background: url("#{resource['img:headerAdmin.gif']}");
+    background-position: 0px 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    margin-right: 2px;
+}
+
+.item:hover,
+.item.active
+{
+    background: url("#{resource['img:headerAdmin.gif']}");
+    background-position: 0px 20px;
+}
+
+#logout
+{
+    float: right;
+    padding-top: 1px;
+}
+
+.clear
+{
+    float: none;
+    clear: both;
+}
+
+#main
+{
+    background-color: white;
+    border: 1px #d41e2a solid;
+    border-top: none;
+    padding: 5px 5px 0px 5px;
+    min-height: 100%;
+}
+
+#login
+{
+    margin-left: auto;
+    margin-right: auto;
+    maring-top: 30px;
+    width: 271px;
+}
+
+#login_header
+{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: white;
+    background: url("#{resource['img:headerAdmin.gif']}");
+}
+
+#login_body
+{
+    border: 1px #d41e2a solid;
+    border-top: none;
+    padding: 2px;
+}
+
+#logo
+{
+    width: 135px;
+    height: 55px;
+    background-image: url("#{resource['img:logo.png']}");
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+table
+{
+    border: 1px solid #d41e2a;
+}
+
+th
+{
+    background-color: #d41e2a;
+    color: white;
+    font-weight: bold;
+}
+
+#tbl_category td,
+#tbl_product td,
+#tbl_product th,
+#tbl_images td,
+#tbl_images th
+{
+    text-align: center;
+}
+
+#tbl_category input,
+#tbl_product input
+{
+    width: 100%;
+}
+
+#tbl_product select
+{
+    width: 90%;
+}
+
+.col1
+{
+    width: 50px;
+}
+
+.col2
+{
+    width: 200px;
+}
+
+.col3
+{
+    width: 150px;
+}
+
+.col4
+{
+    width: 150px;
+}
+
+.col5
+{
+    width: 100px;
+}
+
+fieldset
+{
+    border: 1px solid #d41e2a;
+    margin-top: 15px;
+}
+
+fieldset label
+{
+    position: relative;
+    top: -15px;
+    background-color: #d41e2a;
+    padding: 2px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #d41e2a;
+}
+
+fieldset#tax input[type="text"]
+{
+    width: 100px;
+    margin-right: 10px;
+}
+
+fieldset#tax input[type="submit"]
+{
+    margin-right: 2px;
+    width: 80px;
+}
+
+fieldset#tax select
+{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+div#login table
+{
+    border: none;
+}
+
+#main tr:nth-child(odd)
+{
+    background: gainsboro;
+}
+
+#main .actions tr:last-child
+{
+    background: none;
+}
+
+#HeaderInfo
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#uploadForm
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+fieldset#settings table
+{
+    border: none;
+}
